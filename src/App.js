@@ -1,11 +1,11 @@
 import './App.css';
-import ItemCount from './components/Fibo/Fibo';
+import FibonacciApp from './components/Fibo/Fibo';
 
 function App() {
 
   return (
     <div className="fibo-container">
-        <ItemCount/>
+        <FibonacciApp/>
     </div>
   );
 }
