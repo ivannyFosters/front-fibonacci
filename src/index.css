@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*Fibonacci container styles*/
+.fibo-container{
+    width: 384px;
+    height: 136px;
+    box-shadow: 0px 1px 12px rgba(0,0,0,0.3);
+    border-radius: 4px;
+    padding: 16px;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+.fibo-container-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 6px;
+    margin-bottom: 4px;
+}
+.fibo-container-input{
+    margin: 16px;
+    margin-left: 52px;
+    border-radius: 4px;
+    padding: 8px;
+    border: 1px solid gray;
+    width: 96px;
+    margin-bottom: 4px;
+}
+.fibo-container-submit{
+    width: auto;
+    margin: 16px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    font-size: 24px;
+    margin-top: 9px;
+    margin-bottom: 4px;
+}
+.fibo-container-result{
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
