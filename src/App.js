@@ -1,11 +1,10 @@
-import './App.css';
-import FibonacciApp from './components/Fibo/Fibo';
+import "./App.css";
+import FibonacciApp from "./components/Fibo/Fibo";
 
 function App() {
-
   return (
     <div className="fibo-container">
-        <FibonacciApp/>
+      <FibonacciApp />
     </div>
   );
 }
