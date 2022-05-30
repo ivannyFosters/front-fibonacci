@@ -1,38 +1,44 @@
-.App {
+/*Fibonacci container styles*/
+.fibo-container{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 384px;
+  height: 136px;
+  box-shadow: 0px 1px 16px rgba(0,0,0,0.35);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 0 auto;
+  margin-top: 64px;
+}
+.fibo-container-title {
   text-align: center;
+  font-weight: 600;
+  font-size: 26px;
+  margin-top: 6px;
+  margin-bottom: 16px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fibo-container-buttons{
+  text-align: center;
+  width: 100%;
+  height: 32px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fibo-container-input{
+width: 96px;
+  border-radius: 4px;
+  padding: 8px;
+  border: 1px solid gray;
+  float: left;
+  margin-right: 16px;
+  margin-left: 68px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.fibo-container-submit{
+  width: auto;
+  border-radius: 4px;
+  border: 1px solid gray;
+  font-size: 24px;
+  float: left;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fibo-container-result{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 16px;
 }
