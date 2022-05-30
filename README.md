@@ -18,3 +18,7 @@ Run app
     npm start
     
 Enjoy the Fibonacci calculator!
+
+Note* If you want to compile this application:
+
+    npm run build
